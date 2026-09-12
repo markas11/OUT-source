@@ -1,0 +1,729 @@
+{
+  "version": "1.0.0",
+  "build": "4",
+  "license": "AGPL-3.0-only (OUT client); component notices retained",
+  "signedIPA_SHA256": "6c3ac41ed6b152bd580a7c58c162aae75e314d57c3717c3c2650a9ddf8863a50",
+  "signedIPAAudit": "passed",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1879,
+      "sha256": "1f4135b3da88ec0c678ecae8c8ba10c40a146f497b096e603ab82edaef7b347b"
+    },
+    {
+      "path": "client/.gitignore",
+      "bytes": 119,
+      "sha256": "383a1cde0b1a9a808264394a8010b30cde71991152522222a421b1ead7cabe1c"
+    },
+    {
+      "path": "client/BUILD.md",
+      "bytes": 3013,
+      "sha256": "d5df10180b0b88048db5b80616f60101343aa6e0c28b3c431db59a793e339742"
+    },
+    {
+      "path": "client/CLIENT-LICENSE.md",
+      "bytes": 2202,
+      "sha256": "6cf6e3d7f67cf5d80939308b7a097b000622e479b770e9be5a60f96030eec6b3"
+    },
+    {
+      "path": "client/LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "client/LICENSE-CLIENT",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "client/LICENSING.md",
+      "bytes": 1629,
+      "sha256": "43ff0dc4d02b70460a770d319ae23303cac5aa7d4dfa7cff9f8e1e23cda2d09c"
+    },
+    {
+      "path": "client/OUTApp/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "bytes": 317,
+      "sha256": "30e50c309ae15f3961ed495ed9e9506a12ec8d22dfc466313a8c5c4ecb0be8c7"
+    },
+    {
+      "path": "client/OUTApp/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 223,
+      "sha256": "a621b1ba85733dcc2d654c9ee3c6eeb2509a9b5d0960a5f27e6cd8d00175864f"
+    },
+    {
+      "path": "client/OUTApp/Assets.xcassets/AppIcon.appiconset/OUTMessengerAppIcon.png",
+      "bytes": 1036367,
+      "sha256": "ba3d818496d4268e50ec86c215136e655a616c8e43fb723da129d7fe996af6f9"
+    },
+    {
+      "path": "client/OUTApp/Assets.xcassets/Contents.json",
+      "bytes": 63,
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+    },
+    {
+      "path": "client/OUTApp/Info.plist",
+      "bytes": 2307,
+      "sha256": "195448c0e46ea157beb2a5a62eab7777cca1c717cc9f0134eb25e8f9d32681b6"
+    },
+    {
+      "path": "client/OUTApp/OUTAppAttestCoordinator.swift",
+      "bytes": 4752,
+      "sha256": "5cc2fdd1edf1b4ec50752f913cbad4a5f9cd4685750442791e1f4d676842f09d"
+    },
+    {
+      "path": "client/OUTApp/OUTAvatarProfileCoordinator.swift",
+      "bytes": 4662,
+      "sha256": "0b254a3922383a8740f02c2cdec595de4b2964216cc9e8639a3b86ea9ed92c46"
+    },
+    {
+      "path": "client/OUTApp/OUTBundledSoftwareNotices.swift",
+      "bytes": 467470,
+      "sha256": "6374afdcf42b1f8831029353cc673b18a18c8dddd4d7520296c2372e71a06b27"
+    },
+    {
+      "path": "client/OUTApp/OUTCapturePermission.swift",
+      "bytes": 870,
+      "sha256": "fa196ee99c00946ef92e1d8373916421856987cc116375633d5af75ec223e71f"
+    },
+    {
+      "path": "client/OUTApp/OUTCipherEngine.swift",
+      "bytes": 7752,
+      "sha256": "22f173fd14fc6797b5bac5f538c7696884fb7db0cd4a4f8e8524b1028ed177da"
+    },
+    {
+      "path": "client/OUTApp/OUTCipherLabView.swift",
+      "bytes": 22821,
+      "sha256": "196c2bcf1705bf102448397c1f7bcf627f16985bb54db2047d180d82c60a504b"
+    },
+    {
+      "path": "client/OUTApp/OUTDemoMediaFactory.swift",
+      "bytes": 2894,
+      "sha256": "d618e15ad3319114d487a95f883af1c8dc487dcd77ef6b117237c087bc1bf546"
+    },
+    {
+      "path": "client/OUTApp/OUTE2EECipher.swift",
+      "bytes": 15361,
+      "sha256": "cdf15d9afabd254c3fc931b0d63de0efad7696ff75a2ffddbc10d29964f2e4eb"
+    },
+    {
+      "path": "client/OUTApp/OUTGeneratedAvatarView.swift",
+      "bytes": 29678,
+      "sha256": "67dee8c2008f18c942cf63f23aa03eb7faa1bc33ac8a9043e949c7aed728bafc"
+    },
+    {
+      "path": "client/OUTApp/OUTHomeView.swift",
+      "bytes": 161126,
+      "sha256": "51598d8466fdc4b0ba26d316649af25e46a964d185d719b3487c349e5e5a3668"
+    },
+    {
+      "path": "client/OUTApp/OUTIdentityQRView.swift",
+      "bytes": 1967,
+      "sha256": "eb0d2f899e600d2fa043207c1a487d8277095b94373a4b3b5ce6446d0f0567ae"
+    },
+    {
+      "path": "client/OUTApp/OUTIdentityReadyView.swift",
+      "bytes": 46309,
+      "sha256": "e59ec5a0f0af60d4dbff629eb373c9b765e5634cc5dcb3cf35b888f482ca71f1"
+    },
+    {
+      "path": "client/OUTApp/OUTIdentityStatus.swift",
+      "bytes": 2852,
+      "sha256": "b0159dd1e326ca7c41ada81af50067529d79e3a4f6cd18e9dfae0bb13026ff30"
+    },
+    {
+      "path": "client/OUTApp/OUTInterfaceTone.swift",
+      "bytes": 1853,
+      "sha256": "a80488ee708cc767e2054994c96e156afce49c9e15e0eb456ab3e1062a9bc18a"
+    },
+    {
+      "path": "client/OUTApp/OUTLocalConversationView.swift",
+      "bytes": 42207,
+      "sha256": "1a3ff405f9520ad0b2667d40778b560ce5a33a02550a5f8daa896402c978aa93"
+    },
+    {
+      "path": "client/OUTApp/OUTMediaAccess.swift",
+      "bytes": 24748,
+      "sha256": "d83c71c80290236f8f9d90b0129dd9b26eb9decfe3dce597f8501e4afdc2bbdd"
+    },
+    {
+      "path": "client/OUTApp/OUTMessageExpressionsView.swift",
+      "bytes": 11496,
+      "sha256": "46906c6d7d737f6862936ecab8e3628d56142e79c262a9017debf376387bd20b"
+    },
+    {
+      "path": "client/OUTApp/OUTMessenger.Release.entitlements",
+      "bytes": 505,
+      "sha256": "ce80bf4375ddb9ba818f97956b5ba7ff08483996d1acb246e3a0e21d823ad33c"
+    },
+    {
+      "path": "client/OUTApp/OUTMessenger.entitlements",
+      "bytes": 507,
+      "sha256": "1f313b278d9ddf3faa10d99554b835d2b6d09ef00c28487b49bb1dde39531048"
+    },
+    {
+      "path": "client/OUTApp/OUTMessengerApp.swift",
+      "bytes": 6872,
+      "sha256": "64c9cd44a03a3365f1452f2d3427d4e4b45d84a5954231aac120a6d5aa167a0f"
+    },
+    {
+      "path": "client/OUTApp/OUTPeerConnectView.swift",
+      "bytes": 124149,
+      "sha256": "7a59a77122ed6489a0682616a8e7888c40145b31766a45721870b2439a448d0e"
+    },
+    {
+      "path": "client/OUTApp/OUTPreKeyPublisher.swift",
+      "bytes": 4067,
+      "sha256": "532c6f1d235036d13cc10963dcabc7dc2c80787b99807a16c632a078cf3ddc62"
+    },
+    {
+      "path": "client/OUTApp/OUTPrivacyLock.swift",
+      "bytes": 33714,
+      "sha256": "3c0d0320d1c22299716497770dff8408a9bda6a30206c2d5e0e864e2b2f1ee58"
+    },
+    {
+      "path": "client/OUTApp/OUTPrivateGroupProtocol.swift",
+      "bytes": 4570,
+      "sha256": "3342d10b34fb81b65dc30ddbdb4dd33d0a60e58e8352fc0f399a63acd9e06f11"
+    },
+    {
+      "path": "client/OUTApp/OUTPrivateGroupViews.swift",
+      "bytes": 23074,
+      "sha256": "9d7c2c9363ed2d8c6d9ac08577401fd5497ad452e1e5ad55c736885f550b8efe"
+    },
+    {
+      "path": "client/OUTApp/OUTPrivateGroups.swift",
+      "bytes": 31660,
+      "sha256": "d259329dc3bbd1842bbb82aaac8c8633023435e05f030c5bb27506d982f0b73b"
+    },
+    {
+      "path": "client/OUTApp/OUTPrivateInviteFlow.swift",
+      "bytes": 12394,
+      "sha256": "22cad312479d4f105dc3babdbf494dd77ce0b452e2a311eb43d91fd7712154c9"
+    },
+    {
+      "path": "client/OUTApp/OUTPushArrival.swift",
+      "bytes": 7173,
+      "sha256": "53113e6f3be1400acf87e6ad83fbbf7efb50853c582468a1fdd74d6ef48441c1"
+    },
+    {
+      "path": "client/OUTApp/OUTPushConfiguration.swift",
+      "bytes": 2817,
+      "sha256": "ee6291ebc3855cce1f545187656837449cdd7295ed057b5f99bc1b5b611bd2f3"
+    },
+    {
+      "path": "client/OUTApp/OUTPushRegistrationClient.swift",
+      "bytes": 4618,
+      "sha256": "234a265cc8ad2585cd52a1a80045fccdef080ed37a13842a02384ae74fbd6c0f"
+    },
+    {
+      "path": "client/OUTApp/OUTQRScannerView.swift",
+      "bytes": 12263,
+      "sha256": "7a2e0d422cb3cfe68d0cfe767d9bc0f513f2f78d6f9616cb0871bd408194d7fc"
+    },
+    {
+      "path": "client/OUTApp/OUTRAMCameraView.swift",
+      "bytes": 18810,
+      "sha256": "318fb3e4eb18192d93c658cefc044042a0a41da53961104c1fd13cf9545d209f"
+    },
+    {
+      "path": "client/OUTApp/OUTRAMVoiceView.swift",
+      "bytes": 26925,
+      "sha256": "2c89c647b5ba0f5bf139795b50ec2c0205a10589d19aa71c8a4eb44ebe1176df"
+    },
+    {
+      "path": "client/OUTApp/OUTRegistrationClient.swift",
+      "bytes": 16495,
+      "sha256": "5e2459ba598fde23ac54de655f1a8e720838f6ad2830c9e406c55309a6533762"
+    },
+    {
+      "path": "client/OUTApp/OUTRegistrationView.swift",
+      "bytes": 53086,
+      "sha256": "a703300acd39062598f351f2410438a891574be42f23b5b09e5871c601e72eb5"
+    },
+    {
+      "path": "client/OUTApp/OUTRelayClient.swift",
+      "bytes": 37507,
+      "sha256": "17045179717d4527505ff9237debac671247a6663a15e2fdcb089972b2656876"
+    },
+    {
+      "path": "client/OUTApp/OUTRelayLabView.swift",
+      "bytes": 54744,
+      "sha256": "d0800714fe4190016f0d5f6b4d6796d0e0fc4042d7b999abf272260fc2f2875a"
+    },
+    {
+      "path": "client/OUTApp/OUTRelaySession.swift",
+      "bytes": 63892,
+      "sha256": "056f1bc2eb65608aa279a54cb85eb39739edfb64aa987f0776201c148fdccf11"
+    },
+    {
+      "path": "client/OUTApp/OUTRootView.swift",
+      "bytes": 53777,
+      "sha256": "f7030ccdd16a9e45af8cc9a60a45d413a94aee3d3e77581ab7a46489abfcad4f"
+    },
+    {
+      "path": "client/OUTApp/OUTSecureComposerField.swift",
+      "bytes": 7298,
+      "sha256": "e21834a44ed24e912903fad9c90e151b568ecade8d1939ec813818be61d5b0e3"
+    },
+    {
+      "path": "client/OUTApp/OUTSession.swift",
+      "bytes": 9069,
+      "sha256": "ed1ef00e8348a8ab62a12ab8cb511481323e91cd31a3224fb8148b271808a232"
+    },
+    {
+      "path": "client/OUTApp/OUTSharedInbox.swift",
+      "bytes": 1508,
+      "sha256": "2056e56cbf40bc4f7eadd63eb15dcf8d9fae4fabb0edfbdd004c74c188fbf290"
+    },
+    {
+      "path": "client/OUTApp/OUTSimpleHomeView.swift",
+      "bytes": 64973,
+      "sha256": "c2b1b858c1ff79ad5c1124c609e7d4be810e1634b31a6a8360a00de1d9177b58"
+    },
+    {
+      "path": "client/OUTApp/OUTSoftwareNoticesView.swift",
+      "bytes": 2704,
+      "sha256": "5668a3883b45c2b338698a7c3de44d98a28fa318fef4e63648380796505b1bf8"
+    },
+    {
+      "path": "client/OUTApp/OUTSplashView.swift",
+      "bytes": 4893,
+      "sha256": "8c7cd9bd5ffbcd4c512827bf9d797c96b5941e9d607fc0b05ed4dcd3e2865866"
+    },
+    {
+      "path": "client/OUTApp/OUTWelcomeView.swift",
+      "bytes": 68162,
+      "sha256": "88c91104bfbf3bdf9411d8081b79b82cc56e16ea3109304c7a51d61144728318"
+    },
+    {
+      "path": "client/OUTApp/PrivacyInfo.xcprivacy",
+      "bytes": 4584,
+      "sha256": "e41da6e53c53fecfdf0c5a88fc0b1391e569029e1f467b5878ce88c97a7803c2"
+    },
+    {
+      "path": "client/OUTApp/PrivacyShield.swift",
+      "bytes": 1209,
+      "sha256": "4e683ae49cf1a9e47538a1b12727c5a5ff682f9f42743437c4f9166d684dcc17"
+    },
+    {
+      "path": "client/OUTAppTests/KeychainSignalProtocolStoreTests.swift",
+      "bytes": 6175,
+      "sha256": "969434040d5205fe661f84ec3500b76b8f0069d002f701183d8771c4e7df0ede"
+    },
+    {
+      "path": "client/OUTAppTests/OUTE2EECipherTests.swift",
+      "bytes": 10519,
+      "sha256": "5fb909bbdd195991440229f6bb095465d603666f55761fa2242c6a513c4a8570"
+    },
+    {
+      "path": "client/OUTAppTests/OUTInterfaceToneTests.swift",
+      "bytes": 1243,
+      "sha256": "fd6eef2da7a0b2ae5263bb6ecc34c109fd15ba535aca485afd692f18aa168a68"
+    },
+    {
+      "path": "client/OUTAppTests/OUTMediaAccessTests.swift",
+      "bytes": 3773,
+      "sha256": "82069d6041d1faf5ab5b047763673c3aa4018843ad0ce77615107729dc506147"
+    },
+    {
+      "path": "client/OUTAppTests/OUTPeerConnectViewTests.swift",
+      "bytes": 1064,
+      "sha256": "6c466db8c031fe80b83ce935c37fb86f2f3c99eb43c74ebc1fe8dd89eb5d6b99"
+    },
+    {
+      "path": "client/OUTAppTests/OUTPrivacyLifecycleTests.swift",
+      "bytes": 25462,
+      "sha256": "ad9c0aaa9e602f1ef846143ee9f84428ae134baa6cade2d1ad7d57d856924430"
+    },
+    {
+      "path": "client/OUTAppTests/OUTPrivateGroupRelayTests.swift",
+      "bytes": 6012,
+      "sha256": "8f28cbb31cea96861f4717a3647cc7162dfb318c3a1b1f8e3501fd2a66f613d9"
+    },
+    {
+      "path": "client/OUTAppTests/OUTPrivateGroupsTests.swift",
+      "bytes": 10761,
+      "sha256": "6eecb74b8d0ff65cfd5c4bd222f6eb4002a206c04967e25d609701d63be95905"
+    },
+    {
+      "path": "client/OUTAppTests/OUTPrivateInviteFlowTests.swift",
+      "bytes": 5266,
+      "sha256": "1bcad67aaaef0b4744b95b3b4b56687553bc18795edfc13da592fcd0a1e6884e"
+    },
+    {
+      "path": "client/OUTAppTests/OUTPushConfigurationTests.swift",
+      "bytes": 1814,
+      "sha256": "159a5cefad634e909d7c1b6610e5f9282b2c79cf34825cb7c85ab93db9c1367e"
+    },
+    {
+      "path": "client/OUTAppTests/OUTPushRegistrationClientTests.swift",
+      "bytes": 766,
+      "sha256": "2c3039d02b8847078595aede96277b525a515041f9caad843aabd3d803b43178"
+    },
+    {
+      "path": "client/OUTAppTests/OUTRAMVoiceTests.swift",
+      "bytes": 4641,
+      "sha256": "18c2259b4a0f5e7c80389c215ecbf153285e741e1a54db84409e6c2ecfd22a49"
+    },
+    {
+      "path": "client/OUTAppTests/OUTRegistrationClientTests.swift",
+      "bytes": 6438,
+      "sha256": "ab012f25287d0fb1ca13f2044b60931d02a7d5e35f50fc933b300756c10ca4f2"
+    },
+    {
+      "path": "client/OUTAppUITests/OUTMessengerUITests.swift",
+      "bytes": 51004,
+      "sha256": "cb4ac0263f098058e310929c00e48fbc38636364ab57d691c14163c70f31101a"
+    },
+    {
+      "path": "client/Package.swift",
+      "bytes": 971,
+      "sha256": "8da6c9b856534b16a92c66dfa5363f9244f9a641bc24a25079b30fa57b5cfe9e"
+    },
+    {
+      "path": "client/Podfile",
+      "bytes": 1163,
+      "sha256": "31d03de12eb8f99c41211579e27df3cd945b3a97eb24a975ac3f56e28e4e494b"
+    },
+    {
+      "path": "client/Podfile.lock",
+      "bytes": 511,
+      "sha256": "e7c2dceb3b43cb7be115ba5030bc5e7c472a0ab594b485c193901701dcabfac5"
+    },
+    {
+      "path": "client/README.md",
+      "bytes": 2044,
+      "sha256": "a82a0f53159ff1ce4feba03af541970a3242b9176a9b34f47f82274ecc55a870"
+    },
+    {
+      "path": "client/SOURCE-MANIFEST.json",
+      "bytes": 24153,
+      "sha256": "4caec0113434783cf6e0875ba9a7075fcaf77319a4c870d9bd2593e86a10aa3f"
+    },
+    {
+      "path": "client/Sources/OUTCore/EphemeralMessageStore.swift",
+      "bytes": 3517,
+      "sha256": "ecd8b642f123667040c06fea221ea1aba83b23a8e9477f7b7a8919fa5d05447e"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTEmergencyStateRegistry.swift",
+      "bytes": 1233,
+      "sha256": "94d35c07ac383b3521d2511c0eaa25f54035b44441b9a261f04480b7733d3803"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTEphemeralPolicy.swift",
+      "bytes": 1157,
+      "sha256": "3ef6d9140fdfba3e625a2c93ba7995aa8ef02678b490a5fd40940dc3107fd73a"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTMessageExpression.swift",
+      "bytes": 1426,
+      "sha256": "bc8a91318e8f905660695edf763ef1efd526f397325794255233ba3dffb2a92a"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTMessagePayload.swift",
+      "bytes": 19132,
+      "sha256": "1be5ad9f54f08246c3d616fbf3b9a18cce724c64515e18e67d9df643166cc9f9"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTSealedEnvelopeClock.swift",
+      "bytes": 1044,
+      "sha256": "720121e54acd056a8cb2edb40c94fcce4edf63928733860ac5abd89513f134c7"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTSecureDraftBuffer.swift",
+      "bytes": 3893,
+      "sha256": "0e897d10296066972446f3eb28aab704f0234869ccb3b8c1abee16027e649cb8"
+    },
+    {
+      "path": "client/Sources/OUTCore/SecureBytes.swift",
+      "bytes": 5028,
+      "sha256": "aa8182c8052dc9f11ccf38227bf0e7f9b1487400656ef273eab33a6cc2e979cd"
+    },
+    {
+      "path": "client/Sources/OUTCoreVerification/main.swift",
+      "bytes": 2654,
+      "sha256": "64b2b8d40fd6fa2561860b15eed4eba86283a251b35512539e1d2f9ac780a4a0"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/DeviceIdentityCrypto.swift",
+      "bytes": 5839,
+      "sha256": "257a9d634f95bd3ed19097fb865bcea89eb7f0ec2258b3107cb39ab5a33fae1a"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainAppAttestKeyStore.swift",
+      "bytes": 3500,
+      "sha256": "30c30089fc3be9f71f3991af4f1a11409b9aa8b5a1ec1cac295860b1d54e46bd"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainAvatarRecipeStore.swift",
+      "bytes": 5050,
+      "sha256": "ea4e1a711a9472a45ac13f3dcfe9946f7585beb1aabd3a7c01526c3bc5c03534"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainContactDirectoryStore.swift",
+      "bytes": 9077,
+      "sha256": "1308b39bfefceacbf6f6628fdb52ee36bf7a25e6266512a393c91550769a164e"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainDeviceIdentityStore.swift",
+      "bytes": 10615,
+      "sha256": "a3747796076b3e18f16c0aa5861e799242f7b2475dfd18c209a5742aef7bddff"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainIncomingInviteStore.swift",
+      "bytes": 5337,
+      "sha256": "9b35f54bf3d985c44a2b07ef4b889c1ffbb0f1fc0c1cf5ef509867d7c0795d0e"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainPrivateGroupStore.swift",
+      "bytes": 9924,
+      "sha256": "2981163dbe81d09aa4af2fac06c70bb157d1ae99b80510be5d1dc83d52b75d59"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainPrivateInviteStore.swift",
+      "bytes": 4287,
+      "sha256": "a558cf6200f71d2437069135353f7bc612efed297a7701b89268ad31ee6475a6"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainPurchaseRecoveryStore.swift",
+      "bytes": 3936,
+      "sha256": "f4d60b6034e9635f2c9fb211d3d21af02312221a1e86f1771a703f9410ebb6f6"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainServiceCredentialStore.swift",
+      "bytes": 3746,
+      "sha256": "79b6e733ad607dc4787567b9df23cb1780a820595a5774099abb1f324ce80626"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/KeychainUpdateContinuityStore.swift",
+      "bytes": 9485,
+      "sha256": "31b214c17d551a7e47b9768abfd90c35dd6f4741310d5cca106e18c6f2fbb4e9"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/OUTAvatarRecipe.swift",
+      "bytes": 2893,
+      "sha256": "6735caccc544763cfdb4722646e1a53eba39ef3b2005dbd677d76a88305053e8"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/OUTKeychainAccessibility.swift",
+      "bytes": 590,
+      "sha256": "1a4678e4b9fccf89211eae66da09cd2dc7fbe8c0d04b3d4ae9fd620b7a22a165"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/OUTPeerInvitation.swift",
+      "bytes": 2275,
+      "sha256": "df2871660c9845b3634b6690d5da7cc641faa43ac45b05ff108711f0bc65c09f"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/OUTUsername.swift",
+      "bytes": 1983,
+      "sha256": "857af9d5a8d15c67e6b0e793687c2ae31d2fb5b431f395ce4306b89031556096"
+    },
+    {
+      "path": "client/Sources/OUTIdentity/PreKeyIdentityBinding.swift",
+      "bytes": 3658,
+      "sha256": "b238ea3e02cb14992d1a63e9d240eb198f36bb36d7f6a4c5feaf33e7e4ded7d3"
+    },
+    {
+      "path": "client/Sources/OUTSignalState/KeychainSignalProtocolStore.swift",
+      "bytes": 16201,
+      "sha256": "7443caf169de8356da1d45937b7aaf03d99cf4afc9f5072d3093924d38eae61f"
+    },
+    {
+      "path": "client/Sources/OUTUI/EvanescentMessageBubble.swift",
+      "bytes": 41125,
+      "sha256": "9ddedee428679c0c8e7845e46cf79b5f642392b27a5dea02bca675ee1830c5f8"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTBinaryManifesto.swift",
+      "bytes": 7788,
+      "sha256": "5cc8e64ccbf35d3aa7c9386a02166a3e3edf2cc289585dc54d647680d5efe1e6"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTConversationPrototype.swift",
+      "bytes": 2246,
+      "sha256": "e90c27aaab064e56958cebe453a10a51e4e71c8d034ce6ddfc758ea657d62597"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTDesignSystem.swift",
+      "bytes": 34447,
+      "sha256": "12caf1cf8371a3212b7078c0c7a17167dad45ab2a0eb4b52cb0ebbb43632b69e"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTDigitalVaultMark.swift",
+      "bytes": 19418,
+      "sha256": "5a3064609316feafcb6722c1ed0ba7ebbe9940ec15286ee3dc45f0be3f3b0b95"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTIdentityForgeView.swift",
+      "bytes": 27752,
+      "sha256": "b324f1e85401e2f329f1b6772d1855bf79a53d3d4d439bbcd945f86dbb74a244"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTMessageLifetimeOrb.swift",
+      "bytes": 18658,
+      "sha256": "a8a083bb168a372ee02c58bd24a848383c09d1d2b33f4fa97dbe8f2ebb8bbb50"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTMessageVisibility.swift",
+      "bytes": 1394,
+      "sha256": "729f9845f6393aeef151feeba9409879f80e7f1fce86cdf9c2f4e2d074118e40"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTPalette.swift",
+      "bytes": 5362,
+      "sha256": "7a7d1e81cbfb26fa497020d063023c5c42c0adda2c83a3bd4ba9e8825d313e01"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTPulseSendButton.swift",
+      "bytes": 4983,
+      "sha256": "f95eef1a064df3685800ebe8e0ca0cb8a90b6dc22d0af6d96b52d2bae8705420"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTSealedEnvelopeCountdown.swift",
+      "bytes": 3838,
+      "sha256": "f5cedadc1aaf1e60c26c2604228a022e775c2f3c747aa6e5b4712042e6edcec4"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTSessionIgnitionView.swift",
+      "bytes": 31966,
+      "sha256": "8bce5d6834fe07f9d1ae1eba287d89fd3674ff4d7672f1d65ec8cecc35efd2a7"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTTransmissionStatusView.swift",
+      "bytes": 5137,
+      "sha256": "7ff5aa7a88401df5b03e8a60b4de35da2904c77a3f5d15d8c43443993c1dc5e1"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/EphemeralMessageStoreTests.swift",
+      "bytes": 3394,
+      "sha256": "1ac2cbe08563e12ea30e2581491d9a2f9fd04416030709c9c9a1a8ecc2f53bd7"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/OUTEmergencyStateRegistryTests.swift",
+      "bytes": 860,
+      "sha256": "c96d7a7ae6bbc5f7b6b045710837a4690aafdfdf6662ce85bd1de7ea814dd79c"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/OUTMessageExpressionTests.swift",
+      "bytes": 2771,
+      "sha256": "ce94d7801fa2c1c5b756ae5780a123fcee7f10262cb6f7929c5f9294309957ff"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/OUTMessagePayloadTests.swift",
+      "bytes": 8186,
+      "sha256": "fb986077ca6512e44bfca6ca1bbe959177409d4a09c06541914e9140b3fe3190"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/OUTSecureDraftBufferTests.swift",
+      "bytes": 1934,
+      "sha256": "aaa2509d03aa42a3223330f51259832c5ecb9351641cbca312bdc3bf1c3d6aaf"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/SecureBytesTests.swift",
+      "bytes": 728,
+      "sha256": "1e2fe4a56b0c77a94939a8446e76b6fa9fe528b19684176212789562bbf15ce1"
+    },
+    {
+      "path": "client/Tests/OUTIdentityTests/DeviceIdentityCryptoTests.swift",
+      "bytes": 7302,
+      "sha256": "fa45484e7eedb8011223f621bb9a9c7c6ecb4ee81f5719a27330b4a139e59bab"
+    },
+    {
+      "path": "client/Tests/OUTIdentityTests/OUTAvatarRecipeTests.swift",
+      "bytes": 3316,
+      "sha256": "d5ebecb4a61c1233074e90456726cd2c71a7f84997af367b1e3d53a6a01d3926"
+    },
+    {
+      "path": "client/Tests/OUTIdentityTests/OUTConversationPreferencesTests.swift",
+      "bytes": 3617,
+      "sha256": "60308fa157adbd19aa1b8513273e74db78b717283af06a6f9128db221ec097d4"
+    },
+    {
+      "path": "client/Tests/OUTIdentityTests/OUTUsernameTests.swift",
+      "bytes": 755,
+      "sha256": "18da5e80ecfc745e48c70edc61c6f29dbef9333e52e6f3bd2af005bb291372ec"
+    },
+    {
+      "path": "client/Tests/OUTIdentityTests/UpdateContinuityStoreTests.swift",
+      "bytes": 5988,
+      "sha256": "d822e4e6d1851530df63e8f735f777be0be6f6e7a5c52a756bfbeeef0084c74e"
+    },
+    {
+      "path": "client/ThirdPartyNotices/LibSignalClient/LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "client/ThirdPartyNotices/LibSignalClient/acknowledgments-ios.plist",
+      "bytes": 420773,
+      "sha256": "3d6250ef27bd4278c7551ea737f25d8769bc68296cc806174dda7d3cdefad724"
+    },
+    {
+      "path": "client/ThirdPartyNotices/LibSignalClient/provenance.json",
+      "bytes": 401,
+      "sha256": "bca6370e0ae6284725a8e62195418f5022df3af7531313069a1e16448ca7f4b0"
+    },
+    {
+      "path": "client/docs/source-release/BUILD.md",
+      "bytes": 3013,
+      "sha256": "d5df10180b0b88048db5b80616f60101343aa6e0c28b3c431db59a793e339742"
+    },
+    {
+      "path": "client/docs/source-release/LICENSING.md",
+      "bytes": 1629,
+      "sha256": "43ff0dc4d02b70460a770d319ae23303cac5aa7d4dfa7cff9f8e1e23cda2d09c"
+    },
+    {
+      "path": "client/docs/source-release/README.md",
+      "bytes": 2044,
+      "sha256": "a82a0f53159ff1ce4feba03af541970a3242b9176a9b34f47f82274ecc55a870"
+    },
+    {
+      "path": "client/project.yml",
+      "bytes": 3171,
+      "sha256": "aa4b92df8f33f1156dcb2408845553a698834516cce5fd96914d57493ee52ce3"
+    },
+    {
+      "path": "client/scripts/audit-client-hardening.sh",
+      "bytes": 7308,
+      "sha256": "e26a8b2c7f4de13aaaa416df695d43de9709866ee22061c038290a9f4cc72da2"
+    },
+    {
+      "path": "client/scripts/audit-forensic-surfaces.sh",
+      "bytes": 14315,
+      "sha256": "4518513aa899b86c0e8677c61940eb8e422711f12c76aea7176d1851b7dd83f8"
+    },
+    {
+      "path": "client/scripts/audit-release-app.sh",
+      "bytes": 8355,
+      "sha256": "066150a36ba66bb3447c42e3c0ad335a72351f4497840032d1ba4894c90d2059"
+    },
+    {
+      "path": "client/scripts/generate-software-notices.py",
+      "bytes": 4421,
+      "sha256": "f041a8edf455f45f2ebc7f98bbe35ad876708b37ffd1348da0ce144d92c9a80a"
+    },
+    {
+      "path": "client/scripts/prepare-client-source.py",
+      "bytes": 3702,
+      "sha256": "13627cc66878f911aa3f8fd74095dd16cd942ef1b15ffab495d3545ba038e52c"
+    },
+    {
+      "path": "dependencies/NATIVE-BUILD.md",
+      "bytes": 3040,
+      "sha256": "f8c766a765dee6a91723406331c33a5cf3f0c73c626ae507327135877bd01f47"
+    },
+    {
+      "path": "dependencies/PROVENANCE.json",
+      "bytes": 872,
+      "sha256": "4926458c8942004f004ce00429aa7d4cbd6766b72665a72176e310203882557c"
+    },
+    {
+      "path": "dependencies/libsignal-0.99.4-source-and-vendor.tar.gz",
+      "bytes": 83103123,
+      "sha256": "5be31e4a569ed0f9e70d695d214c939193396cdb2895707e8499373c2fc73740"
+    }
+  ]
+}
