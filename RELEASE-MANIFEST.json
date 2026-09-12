@@ -1,14 +1,15 @@
 {
   "version": "1.0.0",
-  "build": "4",
+  "build": "5",
   "license": "AGPL-3.0-only (OUT client); component notices retained",
-  "signedIPA_SHA256": "6c3ac41ed6b152bd580a7c58c162aae75e314d57c3717c3c2650a9ddf8863a50",
+  "signedIPA_SHA256": "4d7a220520a58ab62c4ed3be78d1248f6663edfdcdb6f550e58718c1dd9e76c1",
   "signedIPAAudit": "passed",
+  "nativeDependencyBundle": "unchanged from build 4; hashes verified",
   "files": [
     {
       "path": "README.md",
-      "bytes": 1879,
-      "sha256": "1f4135b3da88ec0c678ecae8c8ba10c40a146f497b096e603ab82edaef7b347b"
+      "bytes": 2187,
+      "sha256": "e5883a953d6cec9160fcb7de8767ae73d42f8a66265bdc13cfe729c90e8725d9"
     },
     {
       "path": "client/.gitignore",
@@ -17,8 +18,8 @@
     },
     {
       "path": "client/BUILD.md",
-      "bytes": 3013,
-      "sha256": "d5df10180b0b88048db5b80616f60101343aa6e0c28b3c431db59a793e339742"
+      "bytes": 2996,
+      "sha256": "c8d1c600db4f52267e4ef9b2facef6182d20a9aaa808f8b0769f9399f88fe155"
     },
     {
       "path": "client/CLIENT-LICENSE.md",
@@ -66,6 +67,11 @@
       "sha256": "195448c0e46ea157beb2a5a62eab7777cca1c717cc9f0134eb25e8f9d32681b6"
     },
     {
+      "path": "client/OUTApp/OUTAnnualOfferQuote.swift",
+      "bytes": 1789,
+      "sha256": "c4aaa668ac88cca1ff34ddf69711db7630f73de1651ea954653412bebfa386c9"
+    },
+    {
       "path": "client/OUTApp/OUTAppAttestCoordinator.swift",
       "bytes": 4752,
       "sha256": "5cc2fdd1edf1b4ec50752f913cbad4a5f9cd4685750442791e1f4d676842f09d"
@@ -78,7 +84,7 @@
     {
       "path": "client/OUTApp/OUTBundledSoftwareNotices.swift",
       "bytes": 467470,
-      "sha256": "6374afdcf42b1f8831029353cc673b18a18c8dddd4d7520296c2372e71a06b27"
+      "sha256": "910cf4d06a8612acc4b6e7157d4c961e56e9db72ecc76434e3956ac58399cd6e"
     },
     {
       "path": "client/OUTApp/OUTCapturePermission.swift",
@@ -142,8 +148,8 @@
     },
     {
       "path": "client/OUTApp/OUTMediaAccess.swift",
-      "bytes": 24748,
-      "sha256": "d83c71c80290236f8f9d90b0129dd9b26eb9decfe3dce597f8501e4afdc2bbdd"
+      "bytes": 26657,
+      "sha256": "ba743676102744b493a1f24322d9d46029efabeaf49415fcf010984bcd1980c6"
     },
     {
       "path": "client/OUTApp/OUTMessageExpressionsView.swift",
@@ -231,6 +237,11 @@
       "sha256": "2c89c647b5ba0f5bf139795b50ec2c0205a10589d19aa71c8a4eb44ebe1176df"
     },
     {
+      "path": "client/OUTApp/OUTRecoveryCodeView.swift",
+      "bytes": 4944,
+      "sha256": "cb85345a568cb51a5b8831b9e0043f437a5f57b89f13e592957e9803a802c7ee"
+    },
+    {
       "path": "client/OUTApp/OUTRegistrationClient.swift",
       "bytes": 16495,
       "sha256": "5e2459ba598fde23ac54de655f1a8e720838f6ad2830c9e406c55309a6533762"
@@ -257,8 +268,8 @@
     },
     {
       "path": "client/OUTApp/OUTRootView.swift",
-      "bytes": 53777,
-      "sha256": "f7030ccdd16a9e45af8cc9a60a45d413a94aee3d3e77581ab7a46489abfcad4f"
+      "bytes": 54089,
+      "sha256": "475a8547060f73c2218ce0b960fc54f9a91782107af7941c32ed085e12a23810"
     },
     {
       "path": "client/OUTApp/OUTSecureComposerField.swift",
@@ -322,8 +333,8 @@
     },
     {
       "path": "client/OUTAppTests/OUTMediaAccessTests.swift",
-      "bytes": 3773,
-      "sha256": "82069d6041d1faf5ab5b047763673c3aa4018843ad0ce77615107729dc506147"
+      "bytes": 7265,
+      "sha256": "008396d6713f5bcc344e03083dc64b7206c8f2bbbaa29e53607d1d63e61eba67"
     },
     {
       "path": "client/OUTAppTests/OUTPeerConnectViewTests.swift",
@@ -372,8 +383,8 @@
     },
     {
       "path": "client/OUTAppUITests/OUTMessengerUITests.swift",
-      "bytes": 51004,
-      "sha256": "cb4ac0263f098058e310929c00e48fbc38636364ab57d691c14163c70f31101a"
+      "bytes": 52328,
+      "sha256": "60a0fefcc28a2d4b17cfb2c99c07cf9092d85d4d0b2187b106ca7f14c0e9cd8a"
     },
     {
       "path": "client/Package.swift",
@@ -393,12 +404,12 @@
     {
       "path": "client/README.md",
       "bytes": 2044,
-      "sha256": "a82a0f53159ff1ce4feba03af541970a3242b9176a9b34f47f82274ecc55a870"
+      "sha256": "69dc3dede38270756937c9f32405fae10e8a8555b679b91e06b6e23729cb43d7"
     },
     {
       "path": "client/SOURCE-MANIFEST.json",
-      "bytes": 24153,
-      "sha256": "4caec0113434783cf6e0875ba9a7075fcaf77319a4c870d9bd2593e86a10aa3f"
+      "bytes": 24487,
+      "sha256": "727f9fe7a7d4e9d18c2555d57524f875f2ad38e744d51e76e8db2a5dedf1ee39"
     },
     {
       "path": "client/Sources/OUTCore/EphemeralMessageStore.swift",
@@ -487,8 +498,8 @@
     },
     {
       "path": "client/Sources/OUTIdentity/KeychainPurchaseRecoveryStore.swift",
-      "bytes": 3936,
-      "sha256": "f4d60b6034e9635f2c9fb211d3d21af02312221a1e86f1771a703f9410ebb6f6"
+      "bytes": 4005,
+      "sha256": "b0c0a459d8d6513ddb884b651721817bc13a6bdda5c43c53fc2e22cba564c30a"
     },
     {
       "path": "client/Sources/OUTIdentity/KeychainServiceCredentialStore.swift",
@@ -667,8 +678,8 @@
     },
     {
       "path": "client/docs/source-release/BUILD.md",
-      "bytes": 3013,
-      "sha256": "d5df10180b0b88048db5b80616f60101343aa6e0c28b3c431db59a793e339742"
+      "bytes": 2996,
+      "sha256": "c8d1c600db4f52267e4ef9b2facef6182d20a9aaa808f8b0769f9399f88fe155"
     },
     {
       "path": "client/docs/source-release/LICENSING.md",
@@ -678,12 +689,12 @@
     {
       "path": "client/docs/source-release/README.md",
       "bytes": 2044,
-      "sha256": "a82a0f53159ff1ce4feba03af541970a3242b9176a9b34f47f82274ecc55a870"
+      "sha256": "69dc3dede38270756937c9f32405fae10e8a8555b679b91e06b6e23729cb43d7"
     },
     {
       "path": "client/project.yml",
       "bytes": 3171,
-      "sha256": "aa4b92df8f33f1156dcb2408845553a698834516cce5fd96914d57493ee52ce3"
+      "sha256": "b2c732cb0c9097b31291ff213d0113a7c2a5c1afa6bc8485515757159968dcf6"
     },
     {
       "path": "client/scripts/audit-client-hardening.sh",
@@ -692,8 +703,8 @@
     },
     {
       "path": "client/scripts/audit-forensic-surfaces.sh",
-      "bytes": 14315,
-      "sha256": "4518513aa899b86c0e8677c61940eb8e422711f12c76aea7176d1851b7dd83f8"
+      "bytes": 15330,
+      "sha256": "a95ec58ec52bd3f5cc4ca7466f9c981024cde50cabb715120c51242727ba1f40"
     },
     {
       "path": "client/scripts/audit-release-app.sh",
@@ -707,8 +718,8 @@
     },
     {
       "path": "client/scripts/prepare-client-source.py",
-      "bytes": 3702,
-      "sha256": "13627cc66878f911aa3f8fd74095dd16cd942ef1b15ffab495d3545ba038e52c"
+      "bytes": 3884,
+      "sha256": "4446328d0dd3380e9df98e4b4a03fd5e0e289914474382ba2932928842ecdff7"
     },
     {
       "path": "dependencies/NATIVE-BUILD.md",
