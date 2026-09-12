@@ -1,15 +1,15 @@
 {
   "version": "1.0.0",
-  "build": "5",
+  "build": "6",
   "license": "AGPL-3.0-only (OUT client); component notices retained",
-  "signedIPA_SHA256": "4d7a220520a58ab62c4ed3be78d1248f6663edfdcdb6f550e58718c1dd9e76c1",
+  "signedIPA_SHA256": "df24ea6e03337e815ba2db14a29ac18885a8743a18f60083d0963b905941df06",
   "signedIPAAudit": "passed",
   "nativeDependencyBundle": "unchanged from build 4; hashes verified",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2187,
-      "sha256": "e5883a953d6cec9160fcb7de8767ae73d42f8a66265bdc13cfe729c90e8725d9"
+      "bytes": 2462,
+      "sha256": "e93b28cc0a12614fe734ece4bfb6cf83660117a0d798500194f1627b119c6144"
     },
     {
       "path": "client/.gitignore",
@@ -19,7 +19,7 @@
     {
       "path": "client/BUILD.md",
       "bytes": 2996,
-      "sha256": "c8d1c600db4f52267e4ef9b2facef6182d20a9aaa808f8b0769f9399f88fe155"
+      "sha256": "e958e3178319e208acc77a9f345042f86ebe2915dfafbea5c5bbdfb38712b769"
     },
     {
       "path": "client/CLIENT-LICENSE.md",
@@ -68,8 +68,8 @@
     },
     {
       "path": "client/OUTApp/OUTAnnualOfferQuote.swift",
-      "bytes": 1789,
-      "sha256": "c4aaa668ac88cca1ff34ddf69711db7630f73de1651ea954653412bebfa386c9"
+      "bytes": 2479,
+      "sha256": "a7047a586303ca9c27091dbc0ced9dd06424c358ea7917efd24c793a1080fdee"
     },
     {
       "path": "client/OUTApp/OUTAppAttestCoordinator.swift",
@@ -84,7 +84,7 @@
     {
       "path": "client/OUTApp/OUTBundledSoftwareNotices.swift",
       "bytes": 467470,
-      "sha256": "910cf4d06a8612acc4b6e7157d4c961e56e9db72ecc76434e3956ac58399cd6e"
+      "sha256": "fbcf314e4115525c78c05c743fcacc2d30e61ff48b55c50025b8fd61115877a4"
     },
     {
       "path": "client/OUTApp/OUTCapturePermission.swift",
@@ -148,8 +148,8 @@
     },
     {
       "path": "client/OUTApp/OUTMediaAccess.swift",
-      "bytes": 26657,
-      "sha256": "ba743676102744b493a1f24322d9d46029efabeaf49415fcf010984bcd1980c6"
+      "bytes": 27207,
+      "sha256": "fed36c49ee2dd4d90fd3a1581fbde0faae478b3a717d1965b6e29588eb781877"
     },
     {
       "path": "client/OUTApp/OUTMessageExpressionsView.swift",
@@ -333,8 +333,8 @@
     },
     {
       "path": "client/OUTAppTests/OUTMediaAccessTests.swift",
-      "bytes": 7265,
-      "sha256": "008396d6713f5bcc344e03083dc64b7206c8f2bbbaa29e53607d1d63e61eba67"
+      "bytes": 9001,
+      "sha256": "d51ff754c5fe3a7b4bfc6d3408784a9bd3197af7697d5b04616eaee6afa013c4"
     },
     {
       "path": "client/OUTAppTests/OUTPeerConnectViewTests.swift",
@@ -404,12 +404,12 @@
     {
       "path": "client/README.md",
       "bytes": 2044,
-      "sha256": "69dc3dede38270756937c9f32405fae10e8a8555b679b91e06b6e23729cb43d7"
+      "sha256": "38311658994bd71f29adcb82b99e503203cc8072e2f73937659b529245f95bf1"
     },
     {
       "path": "client/SOURCE-MANIFEST.json",
       "bytes": 24487,
-      "sha256": "727f9fe7a7d4e9d18c2555d57524f875f2ad38e744d51e76e8db2a5dedf1ee39"
+      "sha256": "af14aae78d12eb748e43cd4e719a404e9edc18158b080e8ae0b9a9f1d2c39054"
     },
     {
       "path": "client/Sources/OUTCore/EphemeralMessageStore.swift",
@@ -679,7 +679,7 @@
     {
       "path": "client/docs/source-release/BUILD.md",
       "bytes": 2996,
-      "sha256": "c8d1c600db4f52267e4ef9b2facef6182d20a9aaa808f8b0769f9399f88fe155"
+      "sha256": "e958e3178319e208acc77a9f345042f86ebe2915dfafbea5c5bbdfb38712b769"
     },
     {
       "path": "client/docs/source-release/LICENSING.md",
@@ -689,12 +689,12 @@
     {
       "path": "client/docs/source-release/README.md",
       "bytes": 2044,
-      "sha256": "69dc3dede38270756937c9f32405fae10e8a8555b679b91e06b6e23729cb43d7"
+      "sha256": "38311658994bd71f29adcb82b99e503203cc8072e2f73937659b529245f95bf1"
     },
     {
       "path": "client/project.yml",
       "bytes": 3171,
-      "sha256": "b2c732cb0c9097b31291ff213d0113a7c2a5c1afa6bc8485515757159968dcf6"
+      "sha256": "0939c2967fa8be9a959c2b7fb9df52d0a78a62a459f0a1f9724beb2dc9dafe8c"
     },
     {
       "path": "client/scripts/audit-client-hardening.sh",
