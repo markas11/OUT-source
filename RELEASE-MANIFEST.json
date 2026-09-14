@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0",
-  "build": "6",
+  "version": "1.1.0",
+  "build": "7",
   "license": "AGPL-3.0-only (OUT client); component notices retained",
-  "signedIPA_SHA256": "df24ea6e03337e815ba2db14a29ac18885a8743a18f60083d0963b905941df06",
+  "signedIPA_SHA256": "0d229928d9bb8052c58b3ebfd32407a1b9f053d184346140ef818b228810da3d",
   "signedIPAAudit": "passed",
-  "nativeDependencyBundle": "unchanged from build 4; hashes verified",
+  "nativeDependencyBundle": "unchanged from builds 4\u20136; all dependency hashes verified",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2462,
-      "sha256": "e93b28cc0a12614fe734ece4bfb6cf83660117a0d798500194f1627b119c6144"
+      "bytes": 2669,
+      "sha256": "26624d64a9098abbe69dc5650379a66aa36af1bd68b7c2451570b17ab7a9dbf6"
     },
     {
       "path": "client/.gitignore",
@@ -19,7 +19,7 @@
     {
       "path": "client/BUILD.md",
       "bytes": 2996,
-      "sha256": "e958e3178319e208acc77a9f345042f86ebe2915dfafbea5c5bbdfb38712b769"
+      "sha256": "2eba41611c3e5475c39a7d1cdc7dbdddd5387811728f7a003a5d986fc1dc7be3"
     },
     {
       "path": "client/CLIENT-LICENSE.md",
@@ -63,8 +63,8 @@
     },
     {
       "path": "client/OUTApp/Info.plist",
-      "bytes": 2307,
-      "sha256": "195448c0e46ea157beb2a5a62eab7777cca1c717cc9f0134eb25e8f9d32681b6"
+      "bytes": 2583,
+      "sha256": "5f16dcea51ff0d93cb9e1f5f7e1bb53080b1e41464ca3f796ad11cfe1b026270"
     },
     {
       "path": "client/OUTApp/OUTAnnualOfferQuote.swift",
@@ -84,7 +84,7 @@
     {
       "path": "client/OUTApp/OUTBundledSoftwareNotices.swift",
       "bytes": 467470,
-      "sha256": "fbcf314e4115525c78c05c743fcacc2d30e61ff48b55c50025b8fd61115877a4"
+      "sha256": "8da9354bec63fa7b9d5342b85b88514eebb6466a315cf0988b802ac3e0032948"
     },
     {
       "path": "client/OUTApp/OUTCapturePermission.swift",
@@ -100,6 +100,11 @@
       "path": "client/OUTApp/OUTCipherLabView.swift",
       "bytes": 22821,
       "sha256": "196c2bcf1705bf102448397c1f7bcf627f16985bb54db2047d180d82c60a504b"
+    },
+    {
+      "path": "client/OUTApp/OUTConversationExperienceView.swift",
+      "bytes": 9681,
+      "sha256": "d4897f9983b77ff8e257123d35ddd1fb1423595326131178572b6af6c48d6b26"
     },
     {
       "path": "client/OUTApp/OUTDemoMediaFactory.swift",
@@ -142,19 +147,24 @@
       "sha256": "a80488ee708cc767e2054994c96e156afce49c9e15e0eb456ab3e1062a9bc18a"
     },
     {
+      "path": "client/OUTApp/OUTInviteLinkClipboard.swift",
+      "bytes": 698,
+      "sha256": "f439973562adbe60b31b49c031c3ab1c4f8cd2e8523da3994d72b26c995b130a"
+    },
+    {
       "path": "client/OUTApp/OUTLocalConversationView.swift",
-      "bytes": 42207,
-      "sha256": "1a3ff405f9520ad0b2667d40778b560ce5a33a02550a5f8daa896402c978aa93"
+      "bytes": 42602,
+      "sha256": "4cb695343405789df24aace3bb3c151c620cb6dd4951e7d72307b0d93dd690c0"
     },
     {
       "path": "client/OUTApp/OUTMediaAccess.swift",
-      "bytes": 27207,
-      "sha256": "fed36c49ee2dd4d90fd3a1581fbde0faae478b3a717d1965b6e29588eb781877"
+      "bytes": 27248,
+      "sha256": "41e36b6e5832ea5e33aaeedaa8ca285fa247d9231eb7bef0be69a76c154c7107"
     },
     {
       "path": "client/OUTApp/OUTMessageExpressionsView.swift",
-      "bytes": 11496,
-      "sha256": "46906c6d7d737f6862936ecab8e3628d56142e79c262a9017debf376387bd20b"
+      "bytes": 16403,
+      "sha256": "7782295b044fb21821d4190ce61381067b1caf6dbe2a88c2914cdadfe5b7146f"
     },
     {
       "path": "client/OUTApp/OUTMessenger.Release.entitlements",
@@ -168,13 +178,23 @@
     },
     {
       "path": "client/OUTApp/OUTMessengerApp.swift",
-      "bytes": 6872,
-      "sha256": "64c9cd44a03a3365f1452f2d3427d4e4b45d84a5954231aac120a6d5aa167a0f"
+      "bytes": 6912,
+      "sha256": "945a0cd7125414d973a19f59c538871d4b9f1a7887a456ac5dcbd5e92a601beb"
+    },
+    {
+      "path": "client/OUTApp/OUTMoment.swift",
+      "bytes": 1899,
+      "sha256": "cd9ae7418fae0ba49c3c55300a0e4f4ecd17181b8ca7e8813035d151d1b7e90a"
     },
     {
       "path": "client/OUTApp/OUTPeerConnectView.swift",
-      "bytes": 124149,
-      "sha256": "7a59a77122ed6489a0682616a8e7888c40145b31766a45721870b2439a448d0e"
+      "bytes": 130002,
+      "sha256": "3ffb2c92674c84209757e2c69b78d97afce2f44fd87f9c7a5a9819a51d997aa1"
+    },
+    {
+      "path": "client/OUTApp/OUTPeerFeatures.swift",
+      "bytes": 1599,
+      "sha256": "3446edd36ea4c1e2a3cdfda7671425ea5810855036f1fd4f7239509e100b4add"
     },
     {
       "path": "client/OUTApp/OUTPreKeyPublisher.swift",
@@ -183,33 +203,33 @@
     },
     {
       "path": "client/OUTApp/OUTPrivacyLock.swift",
-      "bytes": 33714,
-      "sha256": "3c0d0320d1c22299716497770dff8408a9bda6a30206c2d5e0e864e2b2f1ee58"
+      "bytes": 33721,
+      "sha256": "bf7ceed746a0f71b12ff3d58af19e5ade4577276a7a3c40dd82c385778fe1700"
     },
     {
       "path": "client/OUTApp/OUTPrivateGroupProtocol.swift",
-      "bytes": 4570,
-      "sha256": "3342d10b34fb81b65dc30ddbdb4dd33d0a60e58e8352fc0f399a63acd9e06f11"
+      "bytes": 4878,
+      "sha256": "3cb2aa54b0f374bb24a6ed17280cc3f83a7439ee3d9da5ab462e2124d0ef1245"
     },
     {
       "path": "client/OUTApp/OUTPrivateGroupViews.swift",
-      "bytes": 23074,
-      "sha256": "9d7c2c9363ed2d8c6d9ac08577401fd5497ad452e1e5ad55c736885f550b8efe"
+      "bytes": 28744,
+      "sha256": "5b9f86206eabd7c253283da2825e925f3c915bd0b71133176a55344416bcccbc"
     },
     {
       "path": "client/OUTApp/OUTPrivateGroups.swift",
-      "bytes": 31660,
-      "sha256": "d259329dc3bbd1842bbb82aaac8c8633023435e05f030c5bb27506d982f0b73b"
+      "bytes": 43490,
+      "sha256": "b6eafeed248b52c51ae38c759a85b30849043ab84b3b10dddba96ad6d08b791e"
     },
     {
       "path": "client/OUTApp/OUTPrivateInviteFlow.swift",
-      "bytes": 12394,
-      "sha256": "22cad312479d4f105dc3babdbf494dd77ce0b452e2a311eb43d91fd7712154c9"
+      "bytes": 13298,
+      "sha256": "b6dc189ec0d1c86c3d888ec779bcc3cce7198eb41b41e3a3bee1e80f96922c37"
     },
     {
       "path": "client/OUTApp/OUTPushArrival.swift",
-      "bytes": 7173,
-      "sha256": "53113e6f3be1400acf87e6ad83fbbf7efb50853c582468a1fdd74d6ef48441c1"
+      "bytes": 1251,
+      "sha256": "e9ea8029cef796ae62cd1e6ee5f85e6cba65a26c90277bf5235969b1c426421c"
     },
     {
       "path": "client/OUTApp/OUTPushConfiguration.swift",
@@ -228,13 +248,13 @@
     },
     {
       "path": "client/OUTApp/OUTRAMCameraView.swift",
-      "bytes": 18810,
-      "sha256": "318fb3e4eb18192d93c658cefc044042a0a41da53961104c1fd13cf9545d209f"
+      "bytes": 19652,
+      "sha256": "152e3f2e920605ffe7b0ff31cc439f5668036d7c14e54ec6002c3b83841f2058"
     },
     {
       "path": "client/OUTApp/OUTRAMVoiceView.swift",
-      "bytes": 26925,
-      "sha256": "2c89c647b5ba0f5bf139795b50ec2c0205a10589d19aa71c8a4eb44ebe1176df"
+      "bytes": 28500,
+      "sha256": "71b7393bb95ee9f9e5dd992c381208c3b97bdf2f8de51565b1fa1004495d2f0e"
     },
     {
       "path": "client/OUTApp/OUTRecoveryCodeView.swift",
@@ -248,8 +268,8 @@
     },
     {
       "path": "client/OUTApp/OUTRegistrationView.swift",
-      "bytes": 53086,
-      "sha256": "a703300acd39062598f351f2410438a891574be42f23b5b09e5871c601e72eb5"
+      "bytes": 53133,
+      "sha256": "a00a6890ab035be39b12daaf06baef094546ee124164f0bb424fa3bde9bc0bd7"
     },
     {
       "path": "client/OUTApp/OUTRelayClient.swift",
@@ -258,18 +278,18 @@
     },
     {
       "path": "client/OUTApp/OUTRelayLabView.swift",
-      "bytes": 54744,
-      "sha256": "d0800714fe4190016f0d5f6b4d6796d0e0fc4042d7b999abf272260fc2f2875a"
+      "bytes": 58316,
+      "sha256": "799749db5f73f7a18f209209e8a4db4f3dee8367e4a1aa7e90d94450798aa876"
     },
     {
       "path": "client/OUTApp/OUTRelaySession.swift",
-      "bytes": 63892,
-      "sha256": "056f1bc2eb65608aa279a54cb85eb39739edfb64aa987f0776201c148fdccf11"
+      "bytes": 90722,
+      "sha256": "d9558d30b3bfbc522a7475081398fc8837ef93fdd0ea091cfb2c8f4f5696af61"
     },
     {
       "path": "client/OUTApp/OUTRootView.swift",
-      "bytes": 54089,
-      "sha256": "475a8547060f73c2218ce0b960fc54f9a91782107af7941c32ed085e12a23810"
+      "bytes": 58082,
+      "sha256": "fcf866f3d2e49a1c6b639a588f83e16baa1a810f9e9838c1458cae282402a6e4"
     },
     {
       "path": "client/OUTApp/OUTSecureComposerField.swift",
@@ -278,8 +298,8 @@
     },
     {
       "path": "client/OUTApp/OUTSession.swift",
-      "bytes": 9069,
-      "sha256": "ed1ef00e8348a8ab62a12ab8cb511481323e91cd31a3224fb8148b271808a232"
+      "bytes": 9262,
+      "sha256": "b00fbfeef9dc20fac636e9cf0498c1fe096836abd973e12a5c4811202fef5942"
     },
     {
       "path": "client/OUTApp/OUTSharedInbox.swift",
@@ -288,8 +308,8 @@
     },
     {
       "path": "client/OUTApp/OUTSimpleHomeView.swift",
-      "bytes": 64973,
-      "sha256": "c2b1b858c1ff79ad5c1124c609e7d4be810e1634b31a6a8360a00de1d9177b58"
+      "bytes": 65237,
+      "sha256": "63f77843d0a2ea3e6341c293d244c52456eb0f1f232d3835efb1f719ed5c46cf"
     },
     {
       "path": "client/OUTApp/OUTSoftwareNoticesView.swift",
@@ -303,8 +323,8 @@
     },
     {
       "path": "client/OUTApp/OUTWelcomeView.swift",
-      "bytes": 68162,
-      "sha256": "88c91104bfbf3bdf9411d8081b79b82cc56e16ea3109304c7a51d61144728318"
+      "bytes": 68209,
+      "sha256": "6be1b1654f6c1d9f8bf082c491813ba2e95bb0f37b88118e494ec63fc6a0abd0"
     },
     {
       "path": "client/OUTApp/PrivacyInfo.xcprivacy",
@@ -322,6 +342,11 @@
       "sha256": "969434040d5205fe661f84ec3500b76b8f0069d002f701183d8771c4e7df0ede"
     },
     {
+      "path": "client/OUTAppTests/OUTConversationExperienceTests.swift",
+      "bytes": 7529,
+      "sha256": "c71f4c6e4cc95f263c50d2c73cad43f9d3c356a8a2dfd7f3ac22878ade8a72c4"
+    },
+    {
       "path": "client/OUTAppTests/OUTE2EECipherTests.swift",
       "bytes": 10519,
       "sha256": "5fb909bbdd195991440229f6bb095465d603666f55761fa2242c6a513c4a8570"
@@ -337,9 +362,14 @@
       "sha256": "d51ff754c5fe3a7b4bfc6d3408784a9bd3197af7697d5b04616eaee6afa013c4"
     },
     {
+      "path": "client/OUTAppTests/OUTMessageDeletionRelayTests.swift",
+      "bytes": 8829,
+      "sha256": "94ffd0af3f5a68cef3602155a2ad499bfb8e3ea44e504d41273cd8e9d5889021"
+    },
+    {
       "path": "client/OUTAppTests/OUTPeerConnectViewTests.swift",
-      "bytes": 1064,
-      "sha256": "6c466db8c031fe80b83ce935c37fb86f2f3c99eb43c74ebc1fe8dd89eb5d6b99"
+      "bytes": 2067,
+      "sha256": "3c992714b40b54f4049e2a6fa48ed7652b5a17e2d012309329e201c3f0432741"
     },
     {
       "path": "client/OUTAppTests/OUTPrivacyLifecycleTests.swift",
@@ -353,8 +383,8 @@
     },
     {
       "path": "client/OUTAppTests/OUTPrivateGroupsTests.swift",
-      "bytes": 10761,
-      "sha256": "6eecb74b8d0ff65cfd5c4bd222f6eb4002a206c04967e25d609701d63be95905"
+      "bytes": 21198,
+      "sha256": "663222ff0d2c284a1fc859ec6fd1e6eada0ebb1f9674431bfd7dc42c463205c2"
     },
     {
       "path": "client/OUTAppTests/OUTPrivateInviteFlowTests.swift",
@@ -363,8 +393,8 @@
     },
     {
       "path": "client/OUTAppTests/OUTPushConfigurationTests.swift",
-      "bytes": 1814,
-      "sha256": "159a5cefad634e909d7c1b6610e5f9282b2c79cf34825cb7c85ab93db9c1367e"
+      "bytes": 2764,
+      "sha256": "01e5fdfdcf6b70c5e641c2c591376db60aa607479d7bb66a3156fc962e939d0f"
     },
     {
       "path": "client/OUTAppTests/OUTPushRegistrationClientTests.swift",
@@ -382,9 +412,14 @@
       "sha256": "ab012f25287d0fb1ca13f2044b60931d02a7d5e35f50fc933b300756c10ca4f2"
     },
     {
+      "path": "client/OUTAppTests/OUTVoicePlaybackTests.swift",
+      "bytes": 2677,
+      "sha256": "41ba5147feb1c9c2711633b89d9c91753e8f8d19db78dbf4b6e63749dd4c76b6"
+    },
+    {
       "path": "client/OUTAppUITests/OUTMessengerUITests.swift",
-      "bytes": 52328,
-      "sha256": "60a0fefcc28a2d4b17cfb2c99c07cf9092d85d4d0b2187b106ca7f14c0e9cd8a"
+      "bytes": 63801,
+      "sha256": "19c3a3d9472700829c470d3d9df8adb7e797f6eb47032c484b71c89eb4c7884c"
     },
     {
       "path": "client/Package.swift",
@@ -403,18 +438,28 @@
     },
     {
       "path": "client/README.md",
-      "bytes": 2044,
-      "sha256": "38311658994bd71f29adcb82b99e503203cc8072e2f73937659b529245f95bf1"
+      "bytes": 2074,
+      "sha256": "195ac1483eecd38a34e78bb4f25fb2e6cd7f245d6ef95541574b46147d3a1097"
     },
     {
       "path": "client/SOURCE-MANIFEST.json",
-      "bytes": 24487,
-      "sha256": "af14aae78d12eb748e43cd4e719a404e9edc18158b080e8ae0b9a9f1d2c39054"
+      "bytes": 27990,
+      "sha256": "be62e8b24fd3b65c18b3e1cbf2b4c422cab18a3eb9af1b3953dd86fe37652aed"
     },
     {
       "path": "client/Sources/OUTCore/EphemeralMessageStore.swift",
-      "bytes": 3517,
-      "sha256": "ecd8b642f123667040c06fea221ea1aba83b23a8e9477f7b7a8919fa5d05447e"
+      "bytes": 3716,
+      "sha256": "de6141f153f156c6c2cae609d4dcf9b3d211ab9d9e19aaeba252c13a48086d3f"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTConversationControl.swift",
+      "bytes": 1649,
+      "sha256": "75b6699a20d778a2585d8932ac8153ed37e3679b1f4a58b94298dd1fa806beb8"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTDeletionLedger.swift",
+      "bytes": 1541,
+      "sha256": "63344ab441edefaa21c6597d8983940d1ecc53f41859f255c3fc09180bede2ae"
     },
     {
       "path": "client/Sources/OUTCore/OUTEmergencyStateRegistry.swift",
@@ -423,8 +468,13 @@
     },
     {
       "path": "client/Sources/OUTCore/OUTEphemeralPolicy.swift",
-      "bytes": 1157,
-      "sha256": "3ef6d9140fdfba3e625a2c93ba7995aa8ef02678b490a5fd40940dc3107fd73a"
+      "bytes": 1405,
+      "sha256": "97aceba18846dc2c15960b7a1198e7a3102ab39e0e697ab8ea94e79695d22982"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTImageCompression.swift",
+      "bytes": 5192,
+      "sha256": "a34036234c742511b49e1fe2c22a3d808c1440abf81efce1b026a38afc6b0ad4"
     },
     {
       "path": "client/Sources/OUTCore/OUTMessageExpression.swift",
@@ -432,9 +482,19 @@
       "sha256": "bc8a91318e8f905660695edf763ef1efd526f397325794255233ba3dffb2a92a"
     },
     {
+      "path": "client/Sources/OUTCore/OUTMessageGrouping.swift",
+      "bytes": 538,
+      "sha256": "1959e26a5ae588b3083ae3ad79d82863cb17ecd464bbdd67f138cd8673ddaf2e"
+    },
+    {
       "path": "client/Sources/OUTCore/OUTMessagePayload.swift",
-      "bytes": 19132,
-      "sha256": "1be5ad9f54f08246c3d616fbf3b9a18cce724c64515e18e67d9df643166cc9f9"
+      "bytes": 25640,
+      "sha256": "50320f3f108d387c12edbdc80fac68338629f3a7aecc2ab4fa04cd2dbfa8d47d"
+    },
+    {
+      "path": "client/Sources/OUTCore/OUTReadClock.swift",
+      "bytes": 1643,
+      "sha256": "c7c40ce7bb469f68b3f18a88d6341543a28c38bc53e23e8f69a1930a2c5191f7"
     },
     {
       "path": "client/Sources/OUTCore/OUTSealedEnvelopeClock.swift",
@@ -447,9 +507,14 @@
       "sha256": "0e897d10296066972446f3eb28aab704f0234869ccb3b8c1abee16027e649cb8"
     },
     {
+      "path": "client/Sources/OUTCore/OUTVoiceCompression.swift",
+      "bytes": 3904,
+      "sha256": "8dedc95627eb049dc9c5775532e31de7d5fe1bef5ab745e13e7bb7d91ad538c1"
+    },
+    {
       "path": "client/Sources/OUTCore/SecureBytes.swift",
-      "bytes": 5028,
-      "sha256": "aa8182c8052dc9f11ccf38227bf0e7f9b1487400656ef273eab33a6cc2e979cd"
+      "bytes": 5613,
+      "sha256": "2b62b2472c4a060735d8be3ac6f4314dac27dcafde3dc32d47bdf529fd6477fc"
     },
     {
       "path": "client/Sources/OUTCoreVerification/main.swift",
@@ -473,8 +538,8 @@
     },
     {
       "path": "client/Sources/OUTIdentity/KeychainContactDirectoryStore.swift",
-      "bytes": 9077,
-      "sha256": "1308b39bfefceacbf6f6628fdb52ee36bf7a25e6266512a393c91550769a164e"
+      "bytes": 10181,
+      "sha256": "92bd2ebb373490c03b3d27cf0847270c1547681a268fb5bbda052fec9fd221c5"
     },
     {
       "path": "client/Sources/OUTIdentity/KeychainDeviceIdentityStore.swift",
@@ -488,8 +553,8 @@
     },
     {
       "path": "client/Sources/OUTIdentity/KeychainPrivateGroupStore.swift",
-      "bytes": 9924,
-      "sha256": "2981163dbe81d09aa4af2fac06c70bb157d1ae99b80510be5d1dc83d52b75d59"
+      "bytes": 11365,
+      "sha256": "ff362a80a9082faadaba39c6746ac2d911d87395e0caf585afbf059c99a24739"
     },
     {
       "path": "client/Sources/OUTIdentity/KeychainPrivateInviteStore.swift",
@@ -543,8 +608,8 @@
     },
     {
       "path": "client/Sources/OUTUI/EvanescentMessageBubble.swift",
-      "bytes": 41125,
-      "sha256": "9ddedee428679c0c8e7845e46cf79b5f642392b27a5dea02bca675ee1830c5f8"
+      "bytes": 33267,
+      "sha256": "b1038807a93455c5ca55d212fdd5c8b3d312da23ddc99858cab5fac71c680176"
     },
     {
       "path": "client/Sources/OUTUI/OUTBinaryManifesto.swift",
@@ -572,9 +637,14 @@
       "sha256": "b324f1e85401e2f329f1b6772d1855bf79a53d3d4d439bbcd945f86dbb74a244"
     },
     {
+      "path": "client/Sources/OUTUI/OUTMemoryAudioView.swift",
+      "bytes": 11876,
+      "sha256": "3ec74f8d92934541c73a3a9b17ae8f58ed3908ad6a8f12d55e9ef9736c6b53c3"
+    },
+    {
       "path": "client/Sources/OUTUI/OUTMessageLifetimeOrb.swift",
-      "bytes": 18658,
-      "sha256": "a8a083bb168a372ee02c58bd24a848383c09d1d2b33f4fa97dbe8f2ebb8bbb50"
+      "bytes": 19445,
+      "sha256": "c6c20895ce656b2ac9b98cdd15d3fb0265ab420bf8583796f9381d14c0d13e04"
     },
     {
       "path": "client/Sources/OUTUI/OUTMessageVisibility.swift",
@@ -583,8 +653,13 @@
     },
     {
       "path": "client/Sources/OUTUI/OUTPalette.swift",
-      "bytes": 5362,
-      "sha256": "7a7d1e81cbfb26fa497020d063023c5c42c0adda2c83a3bd4ba9e8825d313e01"
+      "bytes": 5732,
+      "sha256": "24b26ed3c7242c8b85215bcdba72e6e2d067f3ce181da6e4401172361e859603"
+    },
+    {
+      "path": "client/Sources/OUTUI/OUTPeekMessageView.swift",
+      "bytes": 3353,
+      "sha256": "53400ebd2ff3d8294090a89b3f787b9e2524b9f7a87aec966b07f8f8b8d9a45f"
     },
     {
       "path": "client/Sources/OUTUI/OUTPulseSendButton.swift",
@@ -607,9 +682,19 @@
       "sha256": "7ff5aa7a88401df5b03e8a60b4de35da2904c77a3f5d15d8c43443993c1dc5e1"
     },
     {
+      "path": "client/Sources/OUTUI/OUTVoiceCaptionsView.swift",
+      "bytes": 9165,
+      "sha256": "c9b313db85cbcad0171c7b8d3824cf07fb2e11bd28e18a08211a4e9424ea69de"
+    },
+    {
       "path": "client/Tests/OUTCoreTests/EphemeralMessageStoreTests.swift",
       "bytes": 3394,
       "sha256": "1ac2cbe08563e12ea30e2581491d9a2f9fd04416030709c9c9a1a8ecc2f53bd7"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/OUTConversationControlTests.swift",
+      "bytes": 3274,
+      "sha256": "535dfc3ef20fe89b4e3b36faffbf471af6f713c99a5662a428c904a51139b06b"
     },
     {
       "path": "client/Tests/OUTCoreTests/OUTEmergencyStateRegistryTests.swift",
@@ -617,14 +702,29 @@
       "sha256": "c96d7a7ae6bbc5f7b6b045710837a4690aafdfdf6662ce85bd1de7ea814dd79c"
     },
     {
+      "path": "client/Tests/OUTCoreTests/OUTEnhancedMediaTests.swift",
+      "bytes": 5108,
+      "sha256": "2f9c6c560b6a5992ed83aa3e1622b801bb3c36c11df804f026e9c2d6e9c89089"
+    },
+    {
       "path": "client/Tests/OUTCoreTests/OUTMessageExpressionTests.swift",
       "bytes": 2771,
       "sha256": "ce94d7801fa2c1c5b756ae5780a123fcee7f10262cb6f7929c5f9294309957ff"
     },
     {
+      "path": "client/Tests/OUTCoreTests/OUTMessageGroupingTests.swift",
+      "bytes": 820,
+      "sha256": "8abee6c1225823daf8079bcb4dc424348db62f18b55eaf6b5f9d1e441c65f9b5"
+    },
+    {
       "path": "client/Tests/OUTCoreTests/OUTMessagePayloadTests.swift",
       "bytes": 8186,
       "sha256": "fb986077ca6512e44bfca6ca1bbe959177409d4a09c06541914e9140b3fe3190"
+    },
+    {
+      "path": "client/Tests/OUTCoreTests/OUTReadClockTests.swift",
+      "bytes": 5027,
+      "sha256": "3b78ae52c97eebbf5c7b3a215897c7f0f088043843461d1b4653e9747ca0d124"
     },
     {
       "path": "client/Tests/OUTCoreTests/OUTSecureDraftBufferTests.swift",
@@ -648,8 +748,8 @@
     },
     {
       "path": "client/Tests/OUTIdentityTests/OUTConversationPreferencesTests.swift",
-      "bytes": 3617,
-      "sha256": "60308fa157adbd19aa1b8513273e74db78b717283af06a6f9128db221ec097d4"
+      "bytes": 6291,
+      "sha256": "d6c8d133330ab59fa5c0980cc3a240861db35d919333c64a76f9919d941d415c"
     },
     {
       "path": "client/Tests/OUTIdentityTests/OUTUsernameTests.swift",
@@ -679,7 +779,7 @@
     {
       "path": "client/docs/source-release/BUILD.md",
       "bytes": 2996,
-      "sha256": "e958e3178319e208acc77a9f345042f86ebe2915dfafbea5c5bbdfb38712b769"
+      "sha256": "2eba41611c3e5475c39a7d1cdc7dbdddd5387811728f7a003a5d986fc1dc7be3"
     },
     {
       "path": "client/docs/source-release/LICENSING.md",
@@ -688,13 +788,13 @@
     },
     {
       "path": "client/docs/source-release/README.md",
-      "bytes": 2044,
-      "sha256": "38311658994bd71f29adcb82b99e503203cc8072e2f73937659b529245f95bf1"
+      "bytes": 2074,
+      "sha256": "195ac1483eecd38a34e78bb4f25fb2e6cd7f245d6ef95541574b46147d3a1097"
     },
     {
       "path": "client/project.yml",
       "bytes": 3171,
-      "sha256": "0939c2967fa8be9a959c2b7fb9df52d0a78a62a459f0a1f9724beb2dc9dafe8c"
+      "sha256": "efc94987fbafadc908ff2bf723cfc827ec14566452edcc126f64d679e2c93737"
     },
     {
       "path": "client/scripts/audit-client-hardening.sh",
@@ -703,8 +803,8 @@
     },
     {
       "path": "client/scripts/audit-forensic-surfaces.sh",
-      "bytes": 15330,
-      "sha256": "a95ec58ec52bd3f5cc4ca7466f9c981024cde50cabb715120c51242727ba1f40"
+      "bytes": 15799,
+      "sha256": "d22f49a6b4dc0a15bfc8ca57ebcbb3b75f29270f4ba44839879b47b0ec082c93"
     },
     {
       "path": "client/scripts/audit-release-app.sh",
